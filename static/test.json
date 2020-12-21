@@ -1,0 +1,14 @@
+{
+	"name": "Python书籍",
+	"origin_price": 66,
+	"pub_date": "2020-11-11 18:00:00",
+	"store": ["京东", "淘宝"],
+	"author": ["张三", "李四", "王五"],
+	"is_valid": true,
+	"is_sale": false,
+	"meta": {
+		"isbn": "abc-123",
+		"pages": 300
+	},
+	"desc": null
+}
