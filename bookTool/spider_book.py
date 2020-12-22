@@ -15,7 +15,7 @@ def main(sn):
     print('京东网数据爬取完成')
     # 淘宝网图书
     print('淘宝网数据爬取完成')
-    # 排序书籍列表
+    # 排序书籍列表，价格排序格式是浮点
     book_list = sorted(book_list, key=lambda item: float(item['price']), reverse=False)
     for book in book_list:
         print(book)

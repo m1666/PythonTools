@@ -15,7 +15,7 @@ def spider(ul_list, list=[]):
         # 价格
         price = li.xpath('p[@class="price"]/span[@class="search_now_price"]/text()')
         # print(price[0])
-        price = '0.00' if len(price) == 0 else price[0].replace('¥', '')
+        price = '0.00' if len(price) == 0 else price[0].replace('¥', ''),
         # print(price)
         # 商家
         store = li.xpath('p[@class="search_shangjia"]/a/text()')
